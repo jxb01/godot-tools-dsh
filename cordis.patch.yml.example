@@ -1,0 +1,11 @@
+# godot-tools — insert this block into your profile's cordis.patch.yml
+# (e.g. C:\Users\<you>\.dsh\profiles\web\cordis.patch.yml)
+#
+# IMPORTANT (Windows + ESM loader): the name MUST be a file:// URL.
+# A bare C:/... path fails at boot with ERR_UNSUPPORTED_ESM_URL_SCHEME.
+#
+# Optional boot-time opt-out: add `disabled: !!js process.env.GODOT_TOOLS === '0'`
+# below `name:` and launch dsh web with GODOT_TOOLS=0 to skip loading.
+- insert:
+    - id: godot-tools
+      name: 'file:///C:/Users/<you>/.dsh/profiles/web/plugins/godot-tools.js'
