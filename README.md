@@ -109,3 +109,8 @@ In the patch row's `config`:
 ## License
 
 MIT — see `LICENSE`.
+
+## Credits / 致谢
+
+- Author: jxb01 · Built with the assistance of DeepSeek (DeepSeek Harness) — assistant by DeepSeek
+- 作者：jxb01 · 由 DeepSeek（DeepSeek Harness）辅助完成 — assistant by DeepSeek
